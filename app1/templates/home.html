@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block content %}
+    <section>
+      <h4><p>Please provide a input directory</p></h4>
+      <form action="/submit" method="POST" class="form-horizontal">
+         <label class='control-label col-sm-2' for = 'name'>Input Directory:</label>
+         <input type="text" autofocus name='loc_i' placeholder="Input directory" id="loc0">
+         <br>
+         <label class='control-label col-sm-2' for = 'name'>Testing Directory:</label>
+         <input type="text" autofocus name='loc_r' placeholder="Testing directory" id="loc0">
+         <br>
+         <label class='control-label col-sm-2' for = 'name'>Output Directory:</label>
+         <input type="text" autofocus name='loc_o' placeholder="Output directory" id="loc0">
+         <br>
+         <br>
+         <br>
+         <input type="submit" value="Get Segregated Images" id="btn_1">
+      </form>
+      <br>
+      <br>
+      <div>
+      <h3>Buy for $5.00</h3>
+      <form action="/charge" method="post">
+        <script
+          src="https://checkout.stripe.com/checkout.js"
+          class="stripe-button"
+          data-key="{{ key }}"
+          data-description="A Flask Charge"
+          data-amount="500"
+          data-locale="auto">
+        </script>
+      </form>
+    </div>
+    </section>
+
+{% endblock content %}
