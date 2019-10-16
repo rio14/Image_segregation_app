@@ -2,8 +2,8 @@
 
 This app can be used to segregate images of one particular person from a folder containing images of multiple people. 
 
-Image segregation is done by creating a model which can distinguish between person X (Images of person you want) from multiple image.
-For the training of the algorithm, Few images of person X and few images of random people are used.  
+Image segregation is done by creating a model which can distinguish between person X (Images of person you want) from multiple images.
+For the training of the algorithm, few images of person X and few images of random people are used.  
 
 ### Following steps are performed on all the images present in the training data 
 
