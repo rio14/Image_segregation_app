@@ -1,7 +1,7 @@
 from flask import render_template, url_for, flash, redirect, request,jsonify
-from app1 import app, db, bcrypt
-from app1.forms import RegistrationForm, LoginForm
-from app1.models import User
+from app import app, db, bcrypt
+from app.forms import RegistrationForm, LoginForm
+from app.models import User
 from flask_login import login_user, current_user, logout_user, login_required
 from os import listdir
 from os.path import isdir
