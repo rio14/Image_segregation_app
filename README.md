@@ -14,5 +14,7 @@ For the training of the algorithm, Few images of person X and few images of rand
 
 ### For segregating images following steps are performed on the images from the folder containing images of person X along with other images: 
 
-1) A single image is first converted into normalized embedding2) Trained model is used to predict the label of the image3) If the predicted class belongs to person X then, that image is stored in the "Output Directory" 
+1) A single image is first converted into normalized embedding
+2) Trained model is used to predict the label of the image
+3) If the predicted class belongs to person X then, that image is stored in the "Output Directory" 
 4) The function loops over all the images in the folder and stores all the images having person X in the output folder. 
