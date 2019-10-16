@@ -13,4 +13,4 @@ tensorflow==1.14.0
 Keras==2.2.4
 sklearn==0.0
 mtcnn==0.0.9
-drive.google.com/uc?export=download&id=1PZ_6Zsy1Vb0s0JmjEmVd8FS99zoMCiN1
+
