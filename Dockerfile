@@ -8,10 +8,9 @@ COPY requirements.txt .
 
 RUN pip install --upgrade -r requirements.txt
 
-COPY app app/
 
-RUN python app/server.py
+RUN python run.py
 
 EXPOSE 5000
 
-CMD ["python", "app/run.py", "serve"]
+CMD ["python", "run.py", "serve"]
