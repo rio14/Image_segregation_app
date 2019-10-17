@@ -140,7 +140,7 @@ required_size=(160, 160)
 def about():
     return render_template('about.html', title='About')
 
-get_name='ben_affleck'
+get_name='target'
 
 @app.route('/submit',methods =['GET','POST'])
 def submit():
