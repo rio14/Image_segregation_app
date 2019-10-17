@@ -24,7 +24,7 @@ For the training of the algorithm, few images of person X and few images of rand
 
 ### How to use the app:
 1) Download the repository and run the "run.py" file. 
-2) The "files" folder has 3 subfolders Train, Test and Output. Training folder contains 2 subfolders (Target and unknown), one with the images of person X(Ben Affelck in this case) and one with random images.
+2) The "App_data" folder has 3 subfolders Train, Test and Output. Training folder contains 2 subfolders (Target and unknown), one with the images of person X(Ben Affelck in this case) and one with random images.
 3) Test folder contains images of ben Affleck and random images. Image seggregation will be performed on this folder. 
 4) Output folder will be the destination folder where after running the codes, images of ben affleck will be stored. 
 5) All the python helper functions for training and testing can be found in the "route.py" file 
